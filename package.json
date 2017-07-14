@@ -1,0 +1,42 @@
+{
+  "name": "webex-time",
+  "version": "0.1.0",
+  "description": "Convert a JavaScript date type to the WebEx XML API supported format",
+  "license": "MIT",
+  "repository": "cisco-ie/webex-time",
+  "author": {
+    "name": "brh55",
+    "email": "brandonhim@live.com",
+    "url": "github.com/cisco-ie/webex-time"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "webex time format",
+    "webex XML APIs",
+    "webex",
+    "cisco"
+  ],
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^10.0.0",
+    "xo": "^0.17.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
