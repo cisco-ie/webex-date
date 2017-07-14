@@ -30,4 +30,4 @@ The date to be converted.
 
 ## License
 
-MIT © [cisco-ie](https://github.com/cisco-ie/webex-time)
+MIT © [Cisco Innovation Edge](https://github.com/cisco-ie/webex-time)
