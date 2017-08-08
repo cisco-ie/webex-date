@@ -1,13 +1,13 @@
 {
-  "name": "webex-time",
+  "name": "webex-date",
   "version": "0.1.0",
   "description": "Convert a JavaScript date type, RFC 2822, ISO-8601 to the WebEx XML API supported format",
   "license": "MIT",
-  "repository": "cisco-ie/webex-time",
+  "repository": "cisco-ie/webex-date",
   "author": {
     "name": "brh55",
     "email": "brandonhim@live.com",
-    "url": "github.com/cisco-ie/webex-time"
+    "url": "github.com/cisco-ie/webex-date"
   },
   "engines": {
     "node": ">=4"
@@ -19,7 +19,7 @@
     "index.js"
   ],
   "keywords": [
-    "webex time format",
+    "webex date format",
     "webex XML APIs",
     "webex",
     "cisco"
