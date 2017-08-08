@@ -4,6 +4,8 @@
 
 This is a tiny, simple module that uses `moment.js` to parse the input and return the format the WebEx API's support `(MM/DD/YYYY HH:mm:ss)`.
 
+> ⚠️ Note: This will use the environment's or browser's time zone to process the date
+
 ## Install
 
 ```
@@ -14,8 +16,8 @@ $ npm install --save webex-date
 ```js
 const webExDate = require('webex-date');
 
-webExDate(new Date(2000, 1, 20, 12)) //=> 02/20/2000 12:00:00
-webExDate('6 Mar 17 21:22 UT') //=> 03/06/2017 13:22:00
+webExDate(new Date(2000, 1, 20, 12)) //=> 02/20/2000 12:00:00  in America/Los_Angeles
+webExDate('6 Mar 17 21:22 UT') //=> 03/06/2017 13:22:00  in America/Los_Angeles
 ```
 
 ## API
